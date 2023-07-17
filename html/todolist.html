@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des tâches</title>
+    <style>
+        @import url("../scss/todolist.css");
+        @import url("../scss/header.css");
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="../js/todolist.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">Anniversaire</a>
+        <a href="./todolist.html">Liste des tâches</a>
+    </header>
+    <div id="list_section">
+        <h1 id="header">To-do list</h1>
+        <ul>
+            <li class="item">Buy movie tickets</li>
+        </ul>
+        <div id="newItemButton"><button href="#">new item</button></div>
+        <form id="newItemForm">
+            <input type="text" id="itemField" placeholder="Item" />
+            <input type="submit" id="add" value="add" />
+        </form>
+    </div>
+    <footer>
+        <p>Idée OpenClassrooms</p>
+    </footer>
+</body>
+
+</html>
